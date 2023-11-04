@@ -1,18 +1,18 @@
 application: docker
 shortcuts:
 - action: Find NSE scripts
-  hotkey: locate .nse | grep ftp
+  command: locate .nse | grep ftp
 - action: Help manual for scripts
-  hotkey: nmap --script-help ftp-anon
+  command: nmap --script-help ftp-anon
 - action: Scan a target using all NSE scripts. May take an hour to complete.
-  hotkey: nmap -p 80 --script=all 10.0.0.1
+  command: nmap -p 80 --script=all 10.0.0.1
 - action: Filter all the IPs from result file
-  hotkey: grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[1-9]\{1,3\}' alive.xml | uniq
+  command: grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[1-9]\{1,3\}' alive.xml | uniq
 - action: Initial scan TCP
-  hotkey: nmap -sC -sV -O -oA nmap/initial 10.10.10.3
+  command: nmap -sC -sV -O -oA nmap/initial 10.10.10.3
 - action: Discover hosts via ICMP requests
-  hotkey: sudo nmap -sn -PE 10.124.0.0/26 --disable-arp-ping --source-port 53
+  command: sudo nmap -sn -PE 10.124.0.0/26 --disable-arp-ping --source-port 53
 - action: Agressively scan all ports
-  hotkey: nmap -p- -sV -A -T4 scanme.nmap.org
+  command: nmap -p- -sV -A -T4 scanme.nmap.org
 - action: Insert data to all of the ICMP packets
-  hotkey: sudo nmap -sn -PE --data-string 'randddo' 10.124.0.0/26 --disable-arp-ping --source-port 53
+  command: sudo nmap -sn -PE --data-string 'randddo' 10.124.0.0/26 --disable-arp-ping --source-port 53
