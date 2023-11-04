@@ -1,94 +1,94 @@
 application: burpsuite
 shortcuts:
 - action: Send to repeater
-  hotkey: Ctrl+R
+  command: Ctrl+R
 - action: Send to intruder
-  hotkey: Ctrl+I
+  command: Ctrl+I
 - action: Send to organizer
-  hotkey: Ctrl+O
+  command: Ctrl+O
 - action: Forward intercepted proxy message
-  hotkey: Ctrl+F
+  command: Ctrl+F
 - action: Toggle proxy interception
-  hotkey: Ctrl+T
+  command: Ctrl+T
 - action: Issue repeater request
-  hotkey: Ctrl+Space
+  command: Ctrl+Space
 - action: Switch to dashboard
-  hotkey: Ctrl+Shift+D
+  command: Ctrl+Shift+D
 - action: Switch to target
-  hotkey: Ctrl+Shift+T
+  command: Ctrl+Shift+T
 - action: Switch to proxy
-  hotkey: Ctrl+Shift+P
+  command: Ctrl+Shift+P
 - action: Switch to intruder
-  hotkey: Ctrl+Shift+I
+  command: Ctrl+Shift+I
 - action: Switch to repeater
-  hotkey: Ctrl+Shift+R
+  command: Ctrl+Shift+R
 - action: Switch to logger
-  hotkey: Ctrl+Shift+L
+  command: Ctrl+Shift+L
 - action: Switch to organizer
-  hotkey: Ctrl+Shift+O
+  command: Ctrl+Shift+O
 - action: Go to previous tab
-  hotkey: Ctrl+Minus
+  command: Ctrl+Minus
 - action: Go to next tab
-  hotkey: Ctrl+Equals
+  command: Ctrl+Equals
 - action: Editor cut
-  hotkey: Ctrl+X
+  command: Ctrl+X
 - action: Editor copy
-  hotkey: Ctrl+C
+  command: Ctrl+C
 - action: Editor paste
-  hotkey: Ctrl+V
+  command: Ctrl+V
 - action: Editor undo
-  hotkey: Ctrl+Z
+  command: Ctrl+Z
 - action: Editor redo
-  hotkey: Ctrl+Shift+Z
+  command: Ctrl+Shift+Z
 - action: Editor select all
-  hotkey: Ctrl+A
+  command: Ctrl+A
 - action: Editor search
-  hotkey: Ctrl+S
+  command: Ctrl+S
 - action: Editor go to previous search match
-  hotkey: Ctrl+Comma
+  command: Ctrl+Comma
 - action: Editor go to next search match
-  hotkey: Ctrl+Period
+  command: Ctrl+Period
 - action: Editor url decode
-  hotkey: Ctrl+Shift+U
+  command: Ctrl+Shift+U
 - action: Editor url encode key characters
-  hotkey: Ctrl+U
+  command: Ctrl+U
 - action: Editor url encode all characters
-  hotkey: Ctrl+Y
+  command: Ctrl+Y
 - action: Editor html decode
-  hotkey: Ctrl+Shift+H
+  command: Ctrl+Shift+H
 - action: Editor html encode key characters
-  hotkey: Ctrl+H
+  command: Ctrl+H
 - action: Editor base64 decode
-  hotkey: Ctrl+Shift+B
+  command: Ctrl+Shift+B
 - action: Editor base64 encode
-  hotkey: Ctrl+B
+  command: Ctrl+B
 - action: Editor backspace word
-  hotkey: Ctrl+Backspace
+  command: Ctrl+Backspace
 - action: Editor delete word
-  hotkey: Ctrl+Delete
+  command: Ctrl+Delete
 - action: Editor delete line
-  hotkey: Ctrl+D
+  command: Ctrl+D
 - action: Editor go to previous word
-  hotkey: Ctrl+Left
+  command: Ctrl+Left
 - action: Editor go to previous word extend selection
-  hotkey: Ctrl+Shift+Left
+  command: Ctrl+Shift+Left
 - action: Editor go to next word
-  hotkey: Ctrl+Right
+  command: Ctrl+Right
 - action: Editor go to next word extend selection
-  hotkey: Ctrl+Shift+Right
+  command: Ctrl+Shift+Right
 - action: Editor go to previous paragraph
-  hotkey: Ctrl+Up
+  command: Ctrl+Up
 - action: Editor go to previous paragraph extend selection
-  hotkey: Ctrl+Shift+Up
+  command: Ctrl+Shift+Up
 - action: Editor go to next paragraph
-  hotkey: Ctrl+Down
+  command: Ctrl+Down
 - action: Editor go to next paragraph extend selection
-  hotkey: Ctrl+Shift+Down
+  command: Ctrl+Shift+Down
 - action: Editor go to start of document
-  hotkey: Ctrl+Home
+  command: Ctrl+Home
 - action: Editor go to start of document extend selection
-  hotkey: Ctrl+Shift+Home
+  command: Ctrl+Shift+Home
 - action: Editor go to end of document
-  hotkey: Ctrl+End
+  command: Ctrl+End
 - action: Editor go to end of document extend selection
-  hotkey: Ctrl+Shift+End
+  command: Ctrl+Shift+End

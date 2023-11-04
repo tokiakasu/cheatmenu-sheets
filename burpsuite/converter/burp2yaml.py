@@ -46,9 +46,14 @@ def create_config(hotkeys: dict):
 
     logging.info("[+] Creating new config at burpsuite.yaml")
 
-    raw_config = {"application": "burpsuite", "shortcuts": hotkeys}
     config_name = "burpsuite.yaml"
+    raw_config = {"application": "burpsuite", "shortcuts": hotkeys}
 
+    # Rename key name "hotkey" to "command"
+    for nested_dict in raw_config['shortcuts']:
+        nested_dict['command'] = nested_dict.pop('hotkey')
+
+    # Converts JSON to YAML and writes it to the file "burpsuite.yaml"
     with open(config_name, 'w', encoding='utf-8') as file:
         yaml.dump(raw_config, file)
 
@@ -65,7 +70,6 @@ def main():
     create_config(hotkeys)
 
     logging.info("[+] Config created. Enjoy your cheatsheet!")
-        
 
 
 if __name__ == "__main__":
