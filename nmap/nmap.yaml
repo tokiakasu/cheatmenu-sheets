@@ -1,4 +1,4 @@
-application: docker
+application: nmap
 shortcuts:
 - action: Find NSE scripts
   command: locate .nse | grep ftp
